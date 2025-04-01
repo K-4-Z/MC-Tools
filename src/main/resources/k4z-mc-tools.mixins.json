@@ -3,7 +3,7 @@
   "package": "k4z.mctools.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin", "TestMixin"
+    "TestMixin"
   ],
   "injectors": {
     "defaultRequire": 1
