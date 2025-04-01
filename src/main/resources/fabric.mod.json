@@ -12,7 +12,7 @@
 		"sources": "https://github.com/K-4-Z/MC-Tools"
 	},
 	"license": "MIT",
-	"icon": "assets/k4z-mc-tools/icon.png",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
