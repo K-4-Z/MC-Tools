@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "k4z-mc-tools",
+	"version": "${version}",
+	"name": "K4Z's MC-Tools",
+	"description": "A small Mod that adds some useful client mechanics.",
+	"authors": [
+		"K4Z (MC: Katzengold_)"
+	],
+	"contact": {
+		"homepage": "https://k4z.neocities.org/",
+		"sources": "https://github.com/K-4-Z/MC-Tools"
+	},
+	"license": "MIT",
+	"icon": "assets/k4z-mc-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"k4z.mctools.K4ZMCTools"
+		],
+		"fabric-datagen": [
+			"k4z.mctools.K4ZMCToolsDataGenerator"
+		],
+		"client": [
+			"k4z.mctools.K4ZMCToolsClient"
+		]
+	},
+	"mixins": [
+		"k4z-mc-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
